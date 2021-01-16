@@ -1,0 +1,135 @@
+html,body{
+    margin: 0%;
+}
+#imagem_fundo{
+    background-image: url("fundo.gif");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+header{
+    background-color:  #171d27;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10px;
+    margin-left: 2%;
+}
+#menu{
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 6 20 6 20;
+}
+li:hover{
+    background-color: #b8cee1;
+}
+#t1{
+    color: aliceblue;
+    padding-top: 20%;
+    font-size: 45px;
+    line-height: 0.8;
+}
+#h2{
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -1%;
+    border-top: 5px solid rgb(248, 248, 248);
+    padding-top: 2%;
+    text-shadow: 4px black;
+}
+#acao{
+    color: rgb(255, 255, 255);
+    border: 1px white solid;
+    padding: 10px 10px 10px 10px;
+}
+.icone{
+    width: 52px;
+}
+.destaque{
+    background-image: url("rocha.jpg");
+    background-size: cover;
+    padding: 50px 20px 50px 20px ;
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.imgeco{
+    width: 90% ;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.center{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.just{
+    text-align: justify;
+}
+#proj{
+    color: white;
+}
+#selecao{
+    color: white;
+    background-color: #212a35;
+}
+.roxo{
+    background-color: #eff4f8;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.colunaquatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 10%;
+}
+.colunatres{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 29%;
+}
+
+.fundo{
+    padding: 10px;
+}
+footer{
+    background-color: #b8cee1;
+    float: left;
+    padding-bottom: 80px;
+    padding-top: 20px;
+} 
+.rodape{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .colunaquatro, .colunatres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        float: none;
+    }
+}
